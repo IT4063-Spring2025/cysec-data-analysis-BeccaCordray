@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import SVC
 from sklearn.model_selection import KFold, cross_val_score
 from numpy import mean, std
-from notebook import df, dfDummies, dfNormalized, X, y, models
+#from notebook import df, dfDummies, dfNormalized, X, y, models
 
 class TestNotebook(unittest.TestCase):
 
